@@ -22,7 +22,7 @@ class TestMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            text: 'This is a test mail.',
+            text: 'This is a test mail. It worked! ✅',
         );
     }
 }
