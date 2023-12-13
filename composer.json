@@ -1,0 +1,44 @@
+{
+  "name": "webhubworks/laravel-mail-test",
+  "description": "Provides a handy command to quickly test the mailer connection.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Johannes Ahrndt",
+      "email": "hello@webhub.de",
+      "homepage": "https://webhub.de/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {}
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "WebhubWorks\\MailTest\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "illuminate/console": "^10.10.0",
+    "illuminate/contracts": "^10.10.0",
+    "illuminate/mail": "^10.10.0",
+    "illuminate/queue": "^10.10.0",
+    "illuminate/support": "^10.10.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "WebhubWorks\\MailTest\\MailTestServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  }
+}
