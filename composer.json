@@ -32,7 +32,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "WebhubWorks\\MailTest\\PackageServiceProvider"
+        "WebhubWorks\\MailTest\\Providers\\PackageServiceProvider"
       ]
     }
   },
