@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace WebhubWorks\MailTest\Providers;
+namespace WebhubWorks\MailTest;
 
 use Illuminate\Support\ServiceProvider;
 use WebhubWorks\MailTest\Console\Commands\TestMailCommand;
 
-final class PackageServiceProvider extends ServiceProvider
+final class MailTestServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
